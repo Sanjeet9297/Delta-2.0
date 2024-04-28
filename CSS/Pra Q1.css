@@ -1,0 +1,16 @@
+h2{
+    color:#abc ;
+    text-align: justify;
+}
+button {
+    color: white;
+    background: blue;
+}
+p{
+    color: rgb(228, 25, 25);
+    
+    line-height: 2.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}

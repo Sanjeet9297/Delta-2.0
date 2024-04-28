@@ -1,0 +1,8 @@
+h2{
+    display: inline;
+    background-color: rgb(233, 21, 169);
+}
+span{
+    display: block;
+    background-color: aqua;
+}

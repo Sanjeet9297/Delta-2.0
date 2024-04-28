@@ -1,0 +1,15 @@
+span{
+   
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px; /* left and Right */
+    margin: 20px;  /* left and Right */
+}
+div{
+     border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px; /* left and Right */
+    margin: 20px;  /* left and Right */
+}

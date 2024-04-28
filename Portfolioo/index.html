@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header section -->
+    <section id="header">
+      <div class="header-top">
+        <div class="logo">
+          <a href="#"><span>P</span>ortfolio</a>
+        </div>
+        <div class="nav-menu">
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <!-- <li><a href="#testimonial">Testimonials</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="bottom-left">
+          <h1 class="name">Sanjeet <span>Kumar</span></h1>
+          <h3 class="profession">-Full Stack Web Developer</h3>
+          <p class="short-desc">
+            👨‍💻Coder | Full-Stack Web Developer🚀 | C | C++ With DSA | Let's Connect!"
+          </p>
+          <a href="assets/my-cv.pdf" target="_blank" class="btn-cv" download>Download Resume</a>
+        </div>
+        <div class="bottom-right">
+          <a href="https://github.com/Sanjeet9297"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/_itz_sanjeet_01/"><i
+              class="fa-brands fa-instagram"></i></a>
+          <!-- <a href="https://join.skype.com/invite/u6YYZbTQX5J4"><i class="fa-brands fa-skype"></i></a> -->
+          <a href="https://www.linkedin.com/in/sanjeet-kumar-722478258/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+      <div class="about-left">
+        <img src="images/wallpaper.png.jpg" alt="user-sideimg" />
+      </div>
+      <div class="about-right">
+        <div class="section-title">
+          <h2 class="sub-title">About Me</h2>
+          <h3 class="title">Web Developer</h3>
+        </div>
+        <p class="desc">
+          "Hey there! I'm a 🌐full-stack web developer, passionate about creating awesome websites. I'm also into
+          💻C/C++
+          programming and enjoy diving into 📊data structures and algorithms. Let's connect and explore the world of
+          coding
+          together! 🚀"
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="openTab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="openTab('experience')">Experience</p>
+          <p class="tab-links" onclick="openTab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>Web Design</span><br />Designing Web and Responsive
+            </li>
+            <li><span>Web Development</span><br />Web app development</li>
+
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>
+              <span>2021 - 2023</span><br />
+              Studying full-stack web development and C/C++ with DSA.
+            </li>
+            <li>
+              <span>2017 - 2021</span><br />
+
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>2023 - Current</span><br />Finish my Bachelor of Technology degree program.
+            </li>
+            <li>
+              <span>2019-2021</span><br /> GOVT GIRWAR INTER COLLEGE DALTONGANJ
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Service section -->
+    <section id="service">
+      <div class="section-title">
+        <h2 class="sub-title">My Services</h2>
+        <h3 class="title">A brief of Offerting Services</h3>
+      </div>
+      <div class="services">
+        <div>
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            web development includes creating and managing websites and web applications, encompassing front-end and
+            back-end development, responsive design, security, and staying current with technology trends.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-laptop"></i>
+          <h2>Wordpress</h2>
+          <p>
+            WordPress is a user-friendly, open-source content management system (CMS) that's widely used for creating
+            websites and blogs. It offers themes and plugins for customization, strong SEO capabilities, and a
+            supportive community. It's a versatile choice for various website types and is known for its ease of use.
+          </p>
+        </div>
+        <div>
+          <i class="fa-brands fa-pix"></i>
+          <h2>Graphic Design</h2>
+          <p>
+            Graphic design is the art of visually communicating ideas and information. It involves creating images,
+            typography, and layouts to convey messages or concepts. Graphic designers use various tools and software to
+            design everything from logos and advertisements to websites and marketing materials.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-lock"></i>
+          <h2>Cyber Security</h2>
+          <p>
+            Cybersecurity is the practice of protecting computer systems, networks, and data from theft, damage, or
+            unauthorized access. It involves measures like firewalls, encryption, and regular monitoring to safeguard
+            against cyber threats and attacks.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio section -->
+    <section id="portfolio">
+      <div class="section-title">
+        <h2 class="sub-title">My Portfolio</h2>
+        <h3 class="title">Awesome Works</h3>
+        <div class="project-list">
+          <div class="project">
+            <img src="images/project1.jpg" alt="project1" />
+            <div class="layer">
+              <h3>Project Title Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                enim hic excepturi eos, dolorum debitis.
+              </p>
+              <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/project2.jpg" alt="project2" />
+            <div class="layer">
+              <h3>Project Title Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                enim hic excepturi eos, dolorum debitis.
+              </p>
+              <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/project3.jpg" alt="project3" />
+            <div class="layer">
+              <h3>Project Title Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                enim hic excepturi eos, dolorum debitis.
+              </p>
+              <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact">
+      <div class="section-title">
+        <h2 class="sub-title">Contact</h2>
+        <h3 class="title">Get in Touch</h3>
+      </div>
+      <div class="content">
+        <div class="contact-left">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">
+              Send Message <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <span id="msg"></span>
+        </div>
+        <div class="vl"></div>
+        <div class="contact-right">
+          <div class="col address">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="info">
+              <h2 class="title">Address</h2>
+              <p>Vill-Kanchanpur , PO+PS-Nawajaypur , Distric-Palamu , State-Jharkhand , Pin code-822101</p>
+            </div>
+          </div>
+          <div class="col phone">
+            <i class="fa-solid fa-phone"></i>
+            <div class="info">
+              <h2 class="title">Phone</h2>
+              <p>+91 9297616440</p>
+            </div>
+          </div>
+          <div class="col email">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="info">
+              <h2 class="title">Email</h2>
+              <p>oksanjeetkr124@gmail.com</p>
+            </div>
+          </div>
+          <div class="col website">
+            <i class="fa-solid fa-globe"></i>
+            <div class="info">
+              <h2 class="title">Website</h2>
+              <p>www.domain.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Portfolio | Made
+          <i class="fa-solid fa-heart"></i> by
+          <a href="#">#1811</a>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <script>
+    const scriptURL =
+      'https://script.google.com/macros/s/AKfycbycmdq3UU6CxMBMFu8tIiPy7KbInN5AsY-McGQieTaZ1hWK2q7P2z3s19hLing7XwaA9w/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        })
+        .then(response => {
+          msg.innerHTML = "Message Send Sucessfully"
+
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>

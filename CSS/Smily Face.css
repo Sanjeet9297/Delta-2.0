@@ -1,0 +1,50 @@
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+/* #First{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left:250px;
+    top: 125px;
+}
+#Second{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: 80px;
+} */
+.Mouth{
+    width: 200px;
+    height: 75px;
+    background-color: red;
+    /* border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 60%; */
+    border-radius: 0px 0px 60px 60px;
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+#First,#Second{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+#Second{
+    left: 250px;
+
+}
